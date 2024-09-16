@@ -4,10 +4,16 @@
 # Do not ignore the .gitignore file itself
 !.gitignore
 
-# Do not ignore these directories
+# Do not ignore these directories and their contents
 !nvim/
+!nvim/**/*
 !kitty/
+!kitty/**/*
 !hypr/
+!hypr/**/*
+
+# Ignore undodir
+nvim/undodir/
 
 # Do not ignore this specific file
 !.zshrc
