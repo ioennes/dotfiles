@@ -21,6 +21,7 @@ local plugins = {
 	-- COLORS
 	'ellisonleao/gruvbox.nvim',
 	'Shatur/neovim-ayu',
+	'andreasvc/vim-256noir',
 	-- AUTOPAIRS
 	'windwp/nvim-autopairs',
 	{

@@ -14,6 +14,7 @@ local lsp = require 'lspconfig'
 lsp.pylsp.setup{}
 lsp.lua_ls.setup{}
 lsp.jdtls.setup{}
+lsp.clangd.setup{}
 
 -- CMP SETUP
 
@@ -39,7 +40,7 @@ cmp.setup {
 }
 
 -- COLORSCHEME
-vim.cmd("colorscheme ayu-dark")
+vim.cmd("colorscheme 256_noir")
 
 -- REMAPS
 vim.api.nvim_set_keymap('n', '<leader>pv', ':Oil<CR>', { noremap = true, silent = true })
