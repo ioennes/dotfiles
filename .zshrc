@@ -26,10 +26,10 @@ export PATH=$JAVA_HOME/bin:$PATH
 ###########
 
 alias tb=taskbook
-alias clear='clear && $HOME/./minfetch'
+alias clear='clear && minfetch'
 
 #############
 ## STARTUP ##
 #############
 
-./minfetch
+minfetch
